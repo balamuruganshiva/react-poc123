@@ -1,0 +1,103 @@
+h1, p {
+  font-family: Lato;
+}
+.cityRight{float:right}
+.movieList{float:none;clear:both;display:block;border:1px solid #327bb9;overflow: hidden;}
+.HeaderTitle{background: #327bb9;padding:10px;color:#FFF;font-size:17px}
+.MovieList{margin: 10px;float:left;width:25%;
+border:1px solid #e7e7e7;padding:5px;}
+.MovieList .even{height:150px;background:red;}
+.MovieList .odd{height:150px;background:#327bb9;}
+.movieName{font-size:14px;text-align:center;padding:4px;color:#666}
+.language,.type{font-size:10px;text-align:center;padding:4px;color:#666}
+.rating{font-size:13px;text-align:center;padding:4px;color:#666}
+.book{width:100%;margin:0 auto}
+.book button {
+    background: #327bb9;
+    padding: 5px;
+    border-radius: 4px;
+    width: 80px;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+    display: table;
+}
+.MovieListTop{
+  width:100%;
+  float:none;
+}
+.homeHeader{
+ width: 100%;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 0;
+    border-bottom: 1px solid #E9E9F2;
+    padding-bottom: 10px;
+}
+
+.sortby,.Popularity,.languageSearch{float:left;margin-left:20px;}
+.Search{display:table;width:100%;}
+.SearchNew{display:table;width:100%;margin:20px 0;}
+.logout button{    background: #327bb9;
+    padding: 5px;
+    float: right;
+    border-radius: 4px;
+    width: 60px;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+    display: table;
+    margin-right: 20px;}
+    .username{text-transform: capitalize;font-size:15px;}
+    .userright{float:right;margin-right:20px}
+    .ErrorMsg{border:2px solid red;padding:10px;margin:10px;color:red;text-align:center}
+    .MovieSingle{width:45%;padding:0;border:1px solid #327bb9;padding-bottom: 20px;float:left;}
+  .movieHeader{background:#327bb9;padding:10px;color:#FFF; }
+    .MovieSingle .even {
+    height: 150px;
+    background: red;
+    width: 70%;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.BookingDetails{
+  width:50%;padding:0;border:1px solid #327bb9;padding-bottom: 20px;float:left;margin-top:10px;
+}
+.moviebody{padding:10px}
+.proceed button,.summary_action button,.Login{ background: #327bb9;
+    padding: 5px;
+    border-radius: 4px;
+    width: 80px;
+    border: none;
+    text-align: center;
+    margin-top:20px;;
+    color: #FFF;
+   }
+   .BookingSummary{margin-left:20%;width:60%;display:table}
+   .summary_details{padding:20px;font-size:14px;}
+   .summary_details b{width:100px;}
+   .BookingDetails{font-size:14px;}
+   .selected_details{padding-left:10px;font-size:16px;}
+   .BookingSummary .checkoutCnt{
+     padding: 15px;
+   }
+   .cont_text{margin-bottom:30px}
+   .summary_action{width:100%;}
+   .summary_action button{float:left;width:48%;margin-left:1%;}
+   .book_more{
+     display:block;
+     margin-top:30px;
+     color:#327bb9;
+     cursor:pointer;
+   }
+   .loginCont{padding:10px}
+   .loginCont > div{margin-bottom:15px;}
+   .loginCont  input {margin-left:20px}
+   .Login {margin:0 auto;display: table;}
+    .loginCont > p{font-size:12px;margin-bottom:20px;}
+    .logo{color:#e83e9a;float:left}
+  .Search_movie{font-size:10px;float:right}
+  .Search_movie input{width:100px;margin:0 10px;}
