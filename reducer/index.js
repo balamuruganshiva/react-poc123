@@ -5,7 +5,5 @@ import {cartDetails} from './cartReducer';
 import {orderDetails} from './orderReducer';
 import { combineReducers } from 'redux';
 
-
-const userDetails = userDetails;
 const rootReducer = combineReducers({userDetails,movieDetails,preCartDetails,cartDetails,orderDetails});
 export default rootReducer;
